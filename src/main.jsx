@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <ErrorBoundary>
             <BrowserRouter>
                 <App />
-                <Toaster />
+                <Toaster richColors />
             </BrowserRouter>
         </ErrorBoundary>
     </React.StrictMode>
